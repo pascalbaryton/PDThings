@@ -1,12 +1,11 @@
 #
 # anonymizer script for PowerDesigner models
 # . replace text values with random values to remove confidential information from models
-# . in a script language rather than compiled for portability, security
 #
 # usage:
-#    perl Anonymizer.pl < entry.xxm > output.xxm
+#    (not yet) perl Anonymizer.pl < entry.xxm > output.xxm
 #    perl Anonymizer.pl entry.xxm => gives entry_anon.xxm
-#    perl Anonymizer.pl x*.xxm foo.xxm => ... wildchar file matching, several arguments
+#    (not yet) perl Anonymizer.pl x*.xxm foo.xxm => ... wildchar file matching, several arguments
 #
    # http://perldoc.perl.org/perlmod.html
    package Anonymizer;
@@ -40,12 +39,11 @@
       $line =~ s/\s+$//;
       next if ($line eq '');
       $ATTRIBUTES{$line} = 0;
-print "att : $line\n"; ### TODO remove
    }
    %NEWATTS = ();
    %REPLACED = ();
 
-   # http://www.drdobbs.com/scripts-as-modules/184416165
+   # from http://www.drdobbs.com/scripts-as-modules/184416165
    __PACKAGE__->run(@ARGV) unless caller();
 
 # -------------------------------------

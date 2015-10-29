@@ -1,7 +1,7 @@
 #
    use strict;
    use Anonymizer;
-   use Test::Simple tests=>12; # 2 + 5 * #models
+   use Test::Simple tests=>7; # 2 + 5 * #models
 
    my @models = (
       'test2.oom'
@@ -20,7 +20,7 @@
       my $changed = &Anonymizer::ChangeXMLModel($read);
       ok($changed ne '', 'changing model contents');
       ok(length($read) == length($changed), 'preserve model length');
-      ok($changed ne $read, 'contents changed');
+      ok($changed ne $read, 'checking contents changed');
    }
 
    &Anonymizer::DumpNewAttributes;
