@@ -1,0 +1,27 @@
+SQLite3.xdb
+	A DBMS definition for SQLite 3.
+	It was created as a new DBMS, from the default PowerDesigner template; then cleaned up to include only the necessary items.
+
+	The objects currently supported:
+	* table
+	* column
+
+	TODO:
+	* key
+	* index
+	* data types
+	* reserved keywords
+	* triggers
+	* conversion tables (CDM/PDM/sql)
+	* ODBC reverse
+	* script reverse
+	current table generation script:
+	if exists(select 1 from sys.systable where table_name='TABLE_1' and table_type='BASE') then
+	   drop table TABLE_1
+	end if;
+	create table TABLE_1 (
+	COLUMN_1 *,
+	COLUMN_2 *,
+	COLUMN_3 *,
+	COLUMN_4 *
+	);
