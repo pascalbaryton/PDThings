@@ -1,28 +1,11 @@
 #
 # anonymizer script for PowerDesigner models
 # . replace text values with random values to remove confidential information from models
-# . in a script language rather than compiled for portability, security
 #
 # usage:
-#    perl Anonymizer.pl < entry.xxm > output.xxm
+#    (not yet) perl Anonymizer.pl < entry.xxm > output.xxm
 #    perl Anonymizer.pl entry.xxm => gives entry_anon.xxm
-#    perl Anonymizer.pl x*.xxm foo.xxm => ... wildchar file matching, several arguments
-#
-# TODO add some license
-# IDEA artistic license
-# TODO deal with extended attributes
-# TODO implement globbing
-# TODO implement STDIN reading
-# TODO deal with identifiers (Name, Code) by limiting the characters (specific "charset"?)
-# TODO deal with RTF (in long strings)
-# IDEA deal with binary format
-# IDEA replace scripts (GTL, vbscript...) in extensions, with valid scripts
-# IDEA replace numeric values
-# IDEA replace binary blobs (images...)
-# IDEA use parameter to specific more attributes to replace
-# IDEA replace long text with excerpts from a pre-defined text (only for ASCII)
-# IDEA add option to disable charset-matching when replacing values
-# IDEA add option to pass "valid chars" expression
+#    (not yet) perl Anonymizer.pl x*.xxm foo.xxm => ... wildchar file matching, several arguments
 #
    # http://perldoc.perl.org/perlmod.html
    package Anonymizer;
@@ -53,14 +36,14 @@
    my $line;
    while (defined($line = <DATA>)) {
       $line =~ s/^\s+//;
-      $line =~ s/[\s\r\n]+$//;
+      $line =~ s/\s+$//;
       next if ($line eq '');
       $ATTRIBUTES{$line} = 0;
    }
    %NEWATTS = ();
    %REPLACED = ();
 
-   # http://www.drdobbs.com/scripts-as-modules/184416165
+   # from http://www.drdobbs.com/scripts-as-modules/184416165
    __PACKAGE__->run(@ARGV) unless caller();
 
 # -------------------------------------

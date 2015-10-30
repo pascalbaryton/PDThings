@@ -11,9 +11,9 @@
 <a:Name>ObjectOrientedModel_1</a:Name>
 <a:Code>ObjectOrientedModel_1</a:Code>
 <a:CreationDate>1418648661</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1418648697</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:PackageOptionsText>[FolderOptions]
 
 [FolderOptions\Class Diagram Objects]
@@ -957,9 +957,9 @@ ColnFKNameUse=No</a:ModelOptionsText>
 <a:Name>Java</a:Name>
 <a:Code>Java</a:Code>
 <a:CreationDate>1418648661</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1418648661</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:TargetStereotype/>
 <a:TargetID>0DEDDB90-46E2-45A0-886E-411709DA0DC9</a:TargetID>
 <a:TargetClassID>1811206C-1A4B-11D1-83D9-444553540000</a:TargetClassID>
@@ -971,9 +971,9 @@ ColnFKNameUse=No</a:ModelOptionsText>
 <a:Name>WSDL for Java</a:Name>
 <a:Code>WSDLJava</a:Code>
 <a:CreationDate>1418648661</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1418648661</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:TargetStereotype/>
 <a:TargetID>C8F5F7B2-CF9D-4E98-8301-959BB6E86C8A</a:TargetID>
 <a:TargetClassID>186C8AC3-D3DC-11D3-881C-00508B03C75C</a:TargetClassID>
@@ -985,9 +985,9 @@ ColnFKNameUse=No</a:ModelOptionsText>
 <a:Name>ClassDiagram_1</a:Name>
 <a:Code>ClassDiagram_1</a:Code>
 <a:CreationDate>1418648661</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1418648697</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:DisplayPreferences>[DisplayPreferences]
 
 [DisplayPreferences\CLD]
@@ -1548,9 +1548,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Name>ComponentDiagram_1</a:Name>
 <a:Code>ComponentDiagram_1</a:Code>
 <a:CreationDate>1418648669</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1418648753</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:DisplayPreferences>[DisplayPreferences]
 
 [DisplayPreferences\CPD]
@@ -2175,9 +2175,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Name>Interface_1</a:Name>
 <a:Code>Interface1</a:Code>
 <a:CreationDate>1418648697</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1418648762</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <a:Classifier.Abstract>1</a:Classifier.Abstract>
 <c:Operations>
@@ -2186,9 +2186,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Name>Operation_1</a:Name>
 <a:Code>operation1</a:Code>
 <a:CreationDate>1418648759</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1418648762</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:ReturnType>int</a:ReturnType>
 <a:Operation.Abstract>1</a:Operation.Abstract>
 </o:Operation>
@@ -2197,9 +2197,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Name>Operation_2</a:Name>
 <a:Code>operation2</a:Code>
 <a:CreationDate>1418648759</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1418648762</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:ReturnType>int</a:ReturnType>
 <a:Operation.Abstract>1</a:Operation.Abstract>
 </o:Operation>
@@ -2208,9 +2208,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Name>Operation_3</a:Name>
 <a:Code>operation3</a:Code>
 <a:CreationDate>1418648759</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1418648762</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:ReturnType>int</a:ReturnType>
 <a:Operation.Abstract>1</a:Operation.Abstract>
 </o:Operation>
@@ -2221,9 +2221,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Name>Interface_2</a:Name>
 <a:Code>Interface2</a:Code>
 <a:CreationDate>1418648697</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1418648753</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <a:Classifier.Abstract>1</a:Classifier.Abstract>
 </o:Interface>
@@ -2232,9 +2232,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Name>Interface_3</a:Name>
 <a:Code>Interface3</a:Code>
 <a:CreationDate>1418648697</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1418648697</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <a:Classifier.Abstract>1</a:Classifier.Abstract>
 </o:Interface>
@@ -2245,9 +2245,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Name>Component_1</a:Name>
 <a:Code>Component1</a:Code>
 <a:CreationDate>1418648674</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1418648753</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <c:Component.Interfaces>
 <o:Interface Ref="o7"/>
 <o:Interface Ref="o9"/>
@@ -2263,9 +2263,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Name>Java</a:Name>
 <a:Code>Java</a:Code>
 <a:CreationDate>1418648661</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1302065259</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:TargetModelURL>file:///%[XOL]%/java5-j2ee14.xol</a:TargetModelURL>
 <a:TargetModelID>0DEDDB90-46E2-45A0-886E-411709DA0DC9</a:TargetModelID>
 <a:TargetModelClassID>1811206C-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
@@ -2279,9 +2279,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Name>WSDL for Java</a:Name>
 <a:Code>WSDLJava</a:Code>
 <a:CreationDate>1418648661</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1096028631</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:TargetModelURL>file:///%[XEM]%/WSDLJ2EE.xem</a:TargetModelURL>
 <a:TargetModelID>C8F5F7B2-CF9D-4E98-8301-959BB6E86C8A</a:TargetModelID>
 <a:TargetModelClassID>186C8AC3-D3DC-11D3-881C-00508B03C75C</a:TargetModelClassID>

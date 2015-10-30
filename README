@@ -1,0 +1,13 @@
+This is my place to store various things related to SAP PowerDesigner design tool.
+
+Tools / anon
+	a Perl script to anonymize PowerDesigner models (stored as XML files),
+	e.g. before sending them to technical support
+
+on the drawing board:
+DBMS /
+	others DBMS
+Tools / stable
+	a Perl script to minimize the number of differences in PD models
+	On save, all XML entities after an added object are renumbered.
+	This makes it painful to compare models as XML files.
