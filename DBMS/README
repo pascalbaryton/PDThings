@@ -6,22 +6,5 @@ SQLite3.xdb
 	* table
 	* column
 
-	TODO:
-	* key
-	* index
-	* data types
-	* reserved keywords
-	* triggers
-	* conversion tables (CDM/PDM/sql)
-	* ODBC reverse
-	* script reverse
-	current table generation script:
-	if exists(select 1 from sys.systable where table_name='TABLE_1' and table_type='BASE') then
-	   drop table TABLE_1
-	end if;
-	create table TABLE_1 (
-	COLUMN_1 *,
-	COLUMN_2 *,
-	COLUMN_3 *,
-	COLUMN_4 *
-	);
+	sqlite test model*.pdm
+		to test the .xdb custom checks, give example of some structures
