@@ -4,8 +4,9 @@
  * in some others, trying to match possible syntax.
  */
 
-CREATE TABLE one (c int);
+CREATE TABLE one (c int,d);
 CREATE TABLE two (d text, primary key (d));
+CREATE INDEX one_d on one(d);
 
 /* ------------------------------------- */
 /* table constraints */
