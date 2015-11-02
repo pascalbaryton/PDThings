@@ -9,9 +9,9 @@
 <a:Name>SQLite 3</a:Name>
 <a:Code>SQLite</a:Code>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446449265</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>This is a PowerDesigner DBMS definition for SQLite 3 databases.
 
 To reverse an existing database:
@@ -43,18 +43,18 @@ Option Explicit &#39; This is to ensure all used variables are defined
 <a:ObjectID>7A47EDF6-F2B1-4270-A5A0-6C32D5940487</a:ObjectID>
 <a:Name>General</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446240123</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Target DBMS identification</a:Comment>
 <c:Categories>
 <o:BooleanTargetItem Id="o3">
 <a:ObjectID>63FC3F68-DB96-4669-BD63-D77BCD96FC51</a:ObjectID>
 <a:Name>SqlSupport</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>SQL syntax allowed. This does not impact the script generation, but it impacts the SQL Preview</a:Comment>
 <a:Value>1</a:Value>
 </o:BooleanTargetItem>
@@ -62,9 +62,9 @@ Option Explicit &#39; This is to ensure all used variables are defined
 <a:ObjectID>358494AF-82B7-4754-AA5E-99ABA57F211E</a:ObjectID>
 <a:Name>EnableCheck</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Determines if the generation of check parameters is authorized or not</a:Comment>
 <a:Value>1</a:Value>
 </o:BooleanTargetItem>
@@ -72,18 +72,18 @@ Option Explicit &#39; This is to ensure all used variables are defined
 <a:ObjectID>2389E386-39A0-4841-9A80-815DC1DF56DF</a:ObjectID>
 <a:Name>Enableconstname</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Determines if constraint names are used during the generation</a:Comment>
 </o:BooleanTargetItem>
 <o:BooleanTargetItem Id="o6">
 <a:ObjectID>2A390937-DD40-41DF-A7E3-FE165F279C21</a:ObjectID>
 <a:Name>EnableIntegrity</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Allows integrity constraints in the DBMS. This controls whether generation parameters for primary, foreign, and alternate keys are grayed or available</a:Comment>
 <a:Value>1</a:Value>
 </o:BooleanTargetItem>
@@ -91,9 +91,9 @@ Option Explicit &#39; This is to ensure all used variables are defined
 <a:ObjectID>1599B4EF-E1E5-4D62-93B5-B765E7D11480</a:ObjectID>
 <a:Name>EnableMultiCheck</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Determines if the generation of multiple check parameters is authorized or not</a:Comment>
 </o:BooleanTargetItem>
 </c:Categories>
@@ -102,36 +102,36 @@ Option Explicit &#39; This is to ensure all used variables are defined
 <a:ObjectID>B4ABD000-14C5-4334-A39C-C29BB29F3E51</a:ObjectID>
 <a:Name>Script</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446238359</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>DBMS characteristics, command definition, and data type translations for the Script generation and reverse engineering</a:Comment>
 <c:Categories>
 <o:TargetCategory Id="o9">
 <a:ObjectID>6A54C24B-EBFC-4C7A-804D-1DC5B7B52793</a:ObjectID>
 <a:Name>Sql</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Contains sub-categories Syntax, Format, File and Keywords. Each sub-category contains entries whose values define general syntax for the database</a:Comment>
 <c:Categories>
 <o:TargetCategory Id="o10">
 <a:ObjectID>CC72FC72-A451-449F-B9AF-8CFA269A77FB</a:ObjectID>
 <a:Name>Syntax</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Contains general parameters for SQL syntax</a:Comment>
 <c:Categories>
 <o:CharacterTargetItem Id="o11">
 <a:ObjectID>F0969A5F-3951-4093-9CAE-BCB08542C2EE</a:ObjectID>
 <a:Name>Terminator</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>End of command character</a:Comment>
 <a:CharacterTargetItem.Value>;</a:CharacterTargetItem.Value>
 </o:CharacterTargetItem>
@@ -139,9 +139,9 @@ Option Explicit &#39; This is to ensure all used variables are defined
 <a:ObjectID>E1490175-C328-4E4C-B4C3-93A9EDD245A0</a:ObjectID>
 <a:Name>BlockTerminator</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>End of block character</a:Comment>
 <a:StringTargetItem.Value>/</a:StringTargetItem.Value>
 </o:StringTargetItem>
@@ -149,18 +149,18 @@ Option Explicit &#39; This is to ensure all used variables are defined
 <a:ObjectID>035B7FE4-43CE-4F58-AF66-EEB0FB89DF4B</a:ObjectID>
 <a:Name>UseBlockTerm</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Use end of block character by default</a:Comment>
 </o:BooleanTargetItem>
 <o:ListTargetItem Id="o14">
 <a:ObjectID>2CCC837A-9D46-422B-97FF-812DB87C8888</a:ObjectID>
 <a:Name>IdentifierDelimiter</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446448727</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Define the identifier delimiter. Check the value to use as default for database generation.
 When begin and end delimiter are different, they must be separated by a space character.</a:Comment>
 <a:ListTargetItem.Value>&quot;</a:ListTargetItem.Value>
@@ -172,9 +172,9 @@ When begin and end delimiter are different, they must be separated by a space ch
 <a:ObjectID>DCBD3174-DF67-4A69-A109-B08C5A1D7199</a:ObjectID>
 <a:Name>Delimiter</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Field separation character. Example: col1, col2, col3</a:Comment>
 <a:CharacterTargetItem.Value>,</a:CharacterTargetItem.Value>
 </o:CharacterTargetItem>
@@ -182,9 +182,9 @@ When begin and end delimiter are different, they must be separated by a space ch
 <a:ObjectID>437D6F86-F6BD-4768-975A-C825B6D2E886</a:ObjectID>
 <a:Name>Quote</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Character used to enclose string values</a:Comment>
 <a:CharacterTargetItem.Value>&#39;</a:CharacterTargetItem.Value>
 </o:CharacterTargetItem>
@@ -192,18 +192,18 @@ When begin and end delimiter are different, they must be separated by a space ch
 <a:ObjectID>552B977C-0C12-4CAB-B9C9-73C5D2C68739</a:ObjectID>
 <a:Name>SqlContinue</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Continuation character</a:Comment>
 </o:CharacterTargetItem>
 <o:StringTargetItem Id="o18">
 <a:ObjectID>580FC0EB-BAC8-4FF1-AAFF-A90C58D2956C</a:ObjectID>
 <a:Name>BlockComment</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Characters used to enclose a multi-line comment</a:Comment>
 <a:StringTargetItem.Value>/*   */</a:StringTargetItem.Value>
 </o:StringTargetItem>
@@ -211,9 +211,9 @@ When begin and end delimiter are different, they must be separated by a space ch
 <a:ObjectID>2051D92E-8BA3-49F2-BF35-971B93F99078</a:ObjectID>
 <a:Name>LineComment</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446361503</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Characters used to enclose a single line comment</a:Comment>
 <a:StringTargetItem.Value>--</a:StringTargetItem.Value>
 </o:StringTargetItem>
@@ -221,18 +221,18 @@ When begin and end delimiter are different, they must be separated by a space ch
 <a:ObjectID>FE699E38-E816-4ABE-AAC7-18E4DFBBBD05</a:ObjectID>
 <a:Name>UsingBlockTerm</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>List of objects using block definition during reverse.</a:Comment>
 </o:TextTargetItem>
 <o:StringTargetItem Id="o21">
 <a:ObjectID>71B31783-D15D-4873-8CD9-BE66690AB601</a:ObjectID>
 <a:Name>UpperCheck</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Define the constraint check for upper case only</a:Comment>
 <a:StringTargetItem.Value>%VALUE% = upper(%@OBJTCODE%)</a:StringTargetItem.Value>
 </o:StringTargetItem>
@@ -240,9 +240,9 @@ When begin and end delimiter are different, they must be separated by a space ch
 <a:ObjectID>2F4BC9E5-3B26-409C-B416-69394F06E78B</a:ObjectID>
 <a:Name>LowerCheck</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Define the constraint check for lower case only</a:Comment>
 <a:StringTargetItem.Value>%VALUE% = lower(%@OBJTCODE%)</a:StringTargetItem.Value>
 </o:StringTargetItem>
@@ -252,18 +252,18 @@ When begin and end delimiter are different, they must be separated by a space ch
 <a:ObjectID>673FF9EA-9EA7-4FAA-8754-59433BC8364B</a:ObjectID>
 <a:Name>Format</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446238359</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Contains entries that define script formatting</a:Comment>
 <c:Categories>
 <o:StringTargetItem Id="o24">
 <a:ObjectID>9A233801-18B4-41EE-B34B-F0ED11663F25</a:ObjectID>
 <a:Name>IllegalChar</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Invalid characters for names</a:Comment>
 <a:StringTargetItem.Value>&quot; +-*/!=&lt;&gt;&#39;&quot;()&quot;</a:StringTargetItem.Value>
 </o:StringTargetItem>
@@ -271,9 +271,9 @@ When begin and end delimiter are different, they must be separated by a space ch
 <a:ObjectID>1436F6A5-C57F-4324-9B83-18D50E67D863</a:ObjectID>
 <a:Name>EnableOwnerPrefix</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Object codes can have a prefix made of the object owner code</a:Comment>
 <a:Value>1</a:Value>
 </o:BooleanTargetItem>
@@ -281,54 +281,54 @@ When begin and end delimiter are different, they must be separated by a space ch
 <a:ObjectID>339C3D91-16DC-4936-ABD5-38FFC9FC2DC6</a:ObjectID>
 <a:Name>MaxScriptLen</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Maximum length for a script line</a:Comment>
 </o:IntegerTargetItem>
 <o:BooleanTargetItem Id="o27">
 <a:ObjectID>CB351B69-0064-4322-B950-49ABD7A8359A</a:ObjectID>
 <a:Name>AddQuote</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Determines if object codes are systematically quoted during the generation</a:Comment>
 </o:BooleanTargetItem>
 <o:StringTargetItem Id="o28">
 <a:ObjectID>199B9F55-7BFE-4FC7-8DAE-DA361F3867E5</a:ObjectID>
 <a:Name>DateFormat</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Date format for test data generation</a:Comment>
 </o:StringTargetItem>
 <o:StringTargetItem Id="o29">
 <a:ObjectID>B4AF79AA-9DE2-438F-A71D-F266D9B77A46</a:ObjectID>
 <a:Name>TimeFormat</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Time format for test data generation</a:Comment>
 </o:StringTargetItem>
 <o:StringTargetItem Id="o30">
 <a:ObjectID>2B1B6145-C625-47B3-8D91-EDFEDC9E6104</a:ObjectID>
 <a:Name>DateTimeFormat</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Datetime format for test data generation</a:Comment>
 </o:StringTargetItem>
 <o:BooleanTargetItem Id="o31">
 <a:ObjectID>7028545C-06AE-49BC-8EA7-5B77A5CF0978</a:ObjectID>
 <a:Name>CaseSensitivityUsingQuote</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Determines if the case sensitivity for identifiers is managed using double quotes</a:Comment>
 </o:BooleanTargetItem>
 </c:Categories>
@@ -337,36 +337,36 @@ When begin and end delimiter are different, they must be separated by a space ch
 <a:ObjectID>5C598863-5C65-47BA-AA90-46289B97A060</a:ObjectID>
 <a:Name>File</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446361545</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Contains header, footer and usage text entries used during the generation</a:Comment>
 <c:Categories>
 <o:TextTargetItem Id="o33">
 <a:ObjectID>2F8AE5BE-12AD-49D6-BCB8-53A6E2BCD36A</a:ObjectID>
 <a:Name>Header</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Header text for a database generation script</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o34">
 <a:ObjectID>15E333E9-96CE-45DA-9345-35D64189078D</a:ObjectID>
 <a:Name>Footer</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Footer text for a database generation script</a:Comment>
 </o:TextTargetItem>
 <o:BooleanTargetItem Id="o35">
 <a:ObjectID>CECF0E93-E048-40E4-9BD4-2FEBD7FB6D91</a:ObjectID>
 <a:Name>EnableMultiFile</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Multi-script allowed</a:Comment>
 <a:Value>1</a:Value>
 </o:BooleanTargetItem>
@@ -374,9 +374,9 @@ When begin and end delimiter are different, they must be separated by a space ch
 <a:ObjectID>D43F4E0E-1471-4CC3-8AE7-29FFA4B800B2</a:ObjectID>
 <a:Name>ScriptExt</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Main script extension in database generation</a:Comment>
 <a:StringTargetItem.Value>sql</a:StringTargetItem.Value>
 </o:StringTargetItem>
@@ -384,9 +384,9 @@ When begin and end delimiter are different, they must be separated by a space ch
 <a:ObjectID>66034318-5AFB-42D1-A0CF-3795D0A4BB35</a:ObjectID>
 <a:Name>TableExt</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Other scripts extension in database generation</a:Comment>
 <a:StringTargetItem.Value>sql</a:StringTargetItem.Value>
 </o:StringTargetItem>
@@ -394,9 +394,9 @@ When begin and end delimiter are different, they must be separated by a space ch
 <a:ObjectID>9810FC48-446E-4D8F-A0E4-3838D217F9C7</a:ObjectID>
 <a:Name>StartCommand</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446448727</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for executing a script</a:Comment>
 <a:StringTargetItem.Value>.read %PATHSCRIPT%/%NAMESCRIPT%</a:StringTargetItem.Value>
 </o:StringTargetItem>
@@ -408,9 +408,9 @@ When begin and end delimiter are different, they must be separated by a space ch
   (3) Execute the script: .read %NAMESCRIPT%
 </a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446448727</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Usage for a single script in database generation</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o40">
@@ -421,9 +421,9 @@ When begin and end delimiter are different, they must be separated by a space ch
   (3) Execute the script: .read %PATHSCRIPT%
 </a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446448727</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Usage for multiple scripts in database generation</a:Comment>
 </o:TextTargetItem>
 </c:Categories>
@@ -432,9 +432,9 @@ When begin and end delimiter are different, they must be separated by a space ch
 <a:ObjectID>02EE504F-7147-487B-AFDC-14B20BC5A930</a:ObjectID>
 <a:Name>Keywords</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446222341</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Contains the list of reserved words and functions available in SQL</a:Comment>
 <c:Categories>
 <o:TextTargetItem Id="o42">
@@ -566,9 +566,9 @@ WITH
 WITHOUT
 </a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446238359</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Reserved words</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o43">
@@ -580,9 +580,9 @@ current_date
 current_timestamp
 </a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446367062</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Reserved default values</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o44">
@@ -596,9 +596,9 @@ min()
 sum()
 total()</a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446450943</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>List of SQL functions to use with group keywords.</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o45">
@@ -608,9 +608,9 @@ total()</a:TextTargetItem.Value>
 random()
 round()</a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446450943</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>List of SQL functions used on numbers</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o46">
@@ -630,9 +630,9 @@ substr()
 trim()
 upper()</a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446450943</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>List of SQL functions for characters and strings</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o47">
@@ -647,9 +647,9 @@ datetime()
 julianday()
 strftime()</a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446450943</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>List of SQL functions for dates</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o48">
@@ -657,9 +657,9 @@ strftime()</a:TextTargetItem.Value>
 <a:Name>ConvertFunc</a:Name>
 <a:TextTargetItem.Value>hex()</a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446450943</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>List of SQL functions used to convert values between hex and integer and handling strings</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o49">
@@ -700,9 +700,9 @@ unicode()
 unlikely()
 zeroblob()</a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446450943</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>List of other SQL functions</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o50">
@@ -752,9 +752,9 @@ is not unknown
 &gt;= all
 &lt;= all</a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>List of operators for comparing values, boolean, and various semantic operators</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o51">
@@ -762,9 +762,9 @@ is not unknown
 <a:Name>Commit</a:Name>
 <a:TextTargetItem.Value>commit</a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for validating the transaction by OBDC</a:Comment>
 </o:TextTargetItem>
 </c:Categories>
@@ -775,9 +775,9 @@ is not unknown
 <a:ObjectID>39DDDA13-62AA-404F-AD51-68FDB6F63608</a:ObjectID>
 <a:Name>Objects</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446241684</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Contains sub-categories for each type of object in the database, for example: Table, or Reference. Each sub-category contains entries whose values define database commands and object-related characteristics</a:Comment>
 <c:Categories>
 <o:TargetCategory Id="o53">
@@ -785,9 +785,9 @@ is not unknown
 <a:Name>Table</a:Name>
 <a:Code>TABL</a:Code>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446361388</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>The following system variables are available:
    &quot;TABLE&quot;        // generated code of the table
    &quot;TNAME&quot;        // name of the table
@@ -801,9 +801,9 @@ is not unknown
 <a:ObjectID>89FE4BF6-31B3-4FF0-9416-60F55FC005A7</a:ObjectID>
 <a:Name>Enable</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Table allowed</a:Comment>
 <a:Value>1</a:Value>
 </o:BooleanTargetItem>
@@ -811,9 +811,9 @@ is not unknown
 <a:ObjectID>09088AD0-4333-4EA8-AD04-BF94ABB5B89F</a:ObjectID>
 <a:Name>Maxlen</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446363759</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Maximum object code length</a:Comment>
 <a:IntegerTargetItem.Value>128</a:IntegerTargetItem.Value>
 </o:IntegerTargetItem>
@@ -822,9 +822,9 @@ is not unknown
 <a:Name>ConstName</a:Name>
 <a:TextTargetItem.Value>CKT_%.U26:TABLE%</a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Constraint name template for check of table</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o57">
@@ -835,9 +835,9 @@ is not unknown
 ) [%WithoutROWID%?without rowid ]
 [%OPTIONS%]</a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446360917</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for creating a table. Example: create table %TABLE%</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o58">
@@ -846,9 +846,9 @@ is not unknown
 <a:TextTargetItem.Value>drop table if exists [%QUALIFIER%]%TABLE%;
 </a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446239700</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for dropping a table.</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o59">
@@ -856,18 +856,18 @@ is not unknown
 <a:Name>Options</a:Name>
 <a:TextTargetItem.Value>in %s : category=tablespace</a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Available options for creating a table</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o60">
 <a:ObjectID>278E908E-A4A0-4471-9C9B-DFF1C599A69B</a:ObjectID>
 <a:Name>DefOptions</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Default values for table options</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o61">
@@ -875,9 +875,9 @@ is not unknown
 <a:Name>Rename</a:Name>
 <a:TextTargetItem.Value>alter table [%OLDQUALIFIER%]%OLDTABL% rename %NEWTABL%</a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for renaming a table</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o62">
@@ -885,9 +885,9 @@ is not unknown
 <a:Name>DefineTableCheck</a:Name>
 <a:TextTargetItem.Value>check (%CONSTRAINT%)</a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Allows to customize the script of table check constraints</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o63">
@@ -896,9 +896,9 @@ is not unknown
 <a:TextTargetItem.Value>alter table [%QUALIFIER%]%TABLE%
    add check (%CONSTRAINT%)</a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Allows to customize the script for modifying table constraints within an alter table statement</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o64">
@@ -907,54 +907,54 @@ is not unknown
 <a:TextTargetItem.Value>alter table [%QUALIFIER%]%TABLE%
    delete check</a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for dropping a table check in an alter table statement</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o65">
 <a:ObjectID>F99F0E88-E0F0-415F-83EA-374B5FF4F669</a:ObjectID>
 <a:Name>SqlListQuery</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>SQL query to list objects</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o66">
 <a:ObjectID>F03CDA27-EBEB-40D2-8253-1624FBF88755</a:ObjectID>
 <a:Name>SqlAttrQuery</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>SQL query to reverse object attributes</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o67">
 <a:ObjectID>60A3317A-9993-43B7-9660-FA0885495124</a:ObjectID>
 <a:Name>SqlOptsQuery</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>SQL query to reverse object physical options</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o68">
 <a:ObjectID>26A27B5A-4450-4172-98F6-215A12A7188A</a:ObjectID>
 <a:Name>SqlChckQuery</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>SQL query to reverse object check constraints</a:Comment>
 </o:TextTargetItem>
 <o:BooleanTargetItem Id="o69">
 <a:ObjectID>C25E11B9-E837-4457-BF02-B4CFE9BE5F24</a:ObjectID>
 <a:Name>UniqConstraintName</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Disallows the same name for index and constraint name in the same table.</a:Comment>
 <a:Value>1</a:Value>
 </o:BooleanTargetItem>
@@ -962,81 +962,81 @@ is not unknown
 <a:ObjectID>B805397D-870E-433F-86E7-7DB45EC23E43</a:ObjectID>
 <a:Name>Header</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Table header</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o71">
 <a:ObjectID>F979DD17-8D9F-4EE5-9634-C249CEB54038</a:ObjectID>
 <a:Name>Footer</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Table footer</a:Comment>
 </o:TextTargetItem>
 <o:IntegerTargetItem Id="o72">
 <a:ObjectID>CE6328ED-D513-4432-B365-EB70277BA9CF</a:ObjectID>
 <a:Name>MaxConstLen</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Maximum table constraint name length</a:Comment>
 </o:IntegerTargetItem>
 <o:TextTargetItem Id="o73">
 <a:ObjectID>DA42F582-063F-4353-90C2-51016B0A585B</a:ObjectID>
 <a:Name>SqlExOptsQuery</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>SQL query to reverse extra physical option data</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o74">
 <a:ObjectID>E230B985-268F-4FDD-835F-E7BC0E8619C7</a:ObjectID>
 <a:Name>ModifiableAttributes</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>List of extended attributes which provoke a modify when changed</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o75">
 <a:ObjectID>9863D319-F656-4B22-9020-FD074447A9FC</a:ObjectID>
 <a:Name>ReversedStatements</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Additional statements to be reversed by script</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o76">
 <a:ObjectID>A6399D76-9653-4F7F-ADB7-E71D10FDA047</a:ObjectID>
 <a:Name>SqlListRefrTables</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>SQL query to list the tables referenced by table</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o77">
 <a:ObjectID>B2EC99E3-C0A2-4C72-914D-C672AE4A9F9C</a:ObjectID>
 <a:Name>ReversedQueries</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Additional attributes queries to be called by ODBC</a:Comment>
 </o:TextTargetItem>
 <o:MapTargetItem Id="o78">
 <a:ObjectID>C52E830B-0AF8-4D95-8E09-36E7C73CAF52</a:ObjectID>
 <a:Name>TypeList</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446359283</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Defines list of available types
 Name is the displayed value
 Value is the stored value in the object</a:Comment>
@@ -1050,9 +1050,9 @@ Temporary
 <a:ObjectID>D2801CCF-59E9-4459-AF50-2147F65987E2</a:ObjectID>
 <a:Name>Alter</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for modifying a table.</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o80">
@@ -1061,27 +1061,27 @@ Temporary
 <a:TextTargetItem.Value>{ Number }
 select count(*) from [%QUALIFIER%]%TABLE%</a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>SQL query for retrieving statistics of tables</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o81">
 <a:ObjectID>B6A5DDE9-E1AE-4F47-8570-B7725D8FC11C</a:ObjectID>
 <a:Name>SqlListSchema</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Query to list the registered schemas.</a:Comment>
 </o:TextTargetItem>
 <o:MapTargetItem Id="o82">
 <a:ObjectID>93EB84F2-E5FA-4007-90EE-1D8779D61159</a:ObjectID>
 <a:Name>AlterStatementList</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>List of text items representing statements modifying the corresponding attributes:
 Example:
 Rename = Code</a:Comment>
@@ -1093,9 +1093,9 @@ Rename = Code</a:Comment>
 <a:Name>Column</a:Name>
 <a:Code>COLN</a:Code>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446368095</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>The following system variables are available:
 (parent table items are also available for columns)
    &quot;COLUMN&quot;       // generated code of the column
@@ -1111,9 +1111,9 @@ Rename = Code</a:Comment>
 <a:ObjectID>5A47DDF0-3EE3-42BA-BDDD-1F1F5A605577</a:ObjectID>
 <a:Name>Enable</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Column allowed</a:Comment>
 <a:Value>1</a:Value>
 </o:BooleanTargetItem>
@@ -1121,9 +1121,9 @@ Rename = Code</a:Comment>
 <a:ObjectID>80E5D6DE-186F-4543-8D27-D27387E3A35C</a:ObjectID>
 <a:Name>Maxlen</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Maximum object code length</a:Comment>
 <a:IntegerTargetItem.Value>128</a:IntegerTargetItem.Value>
 </o:IntegerTargetItem>
@@ -1131,9 +1131,9 @@ Rename = Code</a:Comment>
 <a:ObjectID>67103B2A-C89E-417F-9723-B78136A6CFCE</a:ObjectID>
 <a:Name>CheckNull</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Verifies if a column is NULL</a:Comment>
 <a:Value>1</a:Value>
 </o:BooleanTargetItem>
@@ -1142,18 +1142,18 @@ Rename = Code</a:Comment>
 <a:Name>ConstName</a:Name>
 <a:TextTargetItem.Value>CKC_%.U17:COLUMN%_%.U8:TABLE%</a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Constraint name template for a column check parameter</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o88">
 <a:ObjectID>4F479C78-ACAB-4D1E-9A83-09A6E6F1A9CA</a:ObjectID>
 <a:Name>Create</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for adding a column</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o89">
@@ -1162,72 +1162,72 @@ Rename = Code</a:Comment>
 <a:TextTargetItem.Value>%COLUMN% %DATATYPE% [%NOTNULL%] [default %DEFAULT%] 
       [check (%CONSTRAINT%)] [option (%OPTIONS%)]</a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for defining a table column</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o90">
 <a:ObjectID>44792CC7-780A-42BD-BA79-A057E083177F</a:ObjectID>
 <a:Name>Rename</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for renaming a column</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o91">
 <a:ObjectID>F0E28038-85D1-46CC-954C-7D3BDB32C656</a:ObjectID>
 <a:Name>ModifyColumn</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for modifying a column</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o92">
 <a:ObjectID>A8A3AA57-2D29-4496-906E-559AF7468DAD</a:ObjectID>
 <a:Name>ModifyColnDflt</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for modifying a column default in an alter table statement</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o93">
 <a:ObjectID>48558DD0-FA4D-47FF-AAE5-16D266DACA1E</a:ObjectID>
 <a:Name>ModifyColnChck</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for modifying a column check in an alter table statement</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o94">
 <a:ObjectID>B5CCC9B8-77D1-4D4C-A622-92E6B3F5325B</a:ObjectID>
 <a:Name>ModifyColnNull</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for modifying null/not null for a column in an alter table statement</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o95">
 <a:ObjectID>F3A66618-CF2C-4F35-8186-6E190B1D92F5</a:ObjectID>
 <a:Name>Options</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Available options for creating a column</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o96">
 <a:ObjectID>616CB150-7C7E-4F49-8CCB-34A598A92EBC</a:ObjectID>
 <a:Name>ModifyColnComp</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for modifying computed expression for a column in an alter table statement</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o97">
@@ -1235,36 +1235,36 @@ Rename = Code</a:Comment>
 <a:Name>DefineColnChck</a:Name>
 <a:TextTargetItem.Value>[constraint %CONSTNAME%] check (%CONSTRAINT%)</a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Allows to customize the script of column check constraints</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o98">
 <a:ObjectID>FAC6324E-6CB9-4AC1-BADF-4016AA348AD7</a:ObjectID>
 <a:Name>ModifiableAttributes</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>List of extended attributes which provoke a modify when changed</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o99">
 <a:ObjectID>07986F26-ADB5-4706-950F-771EEE529A42</a:ObjectID>
 <a:Name>Insert</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for inserting a column</a:Comment>
 </o:TextTargetItem>
 <o:MapTargetItem Id="o100">
 <a:ObjectID>0D04E3A6-6A2F-46C3-896C-67BF51353F39</a:ObjectID>
 <a:Name>AlterStatementList</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>List of text items representing statements modifying the corresponding attributes:
 Example:
 Rename = Code</a:Comment>
@@ -1273,9 +1273,9 @@ Rename = Code</a:Comment>
 <a:ObjectID>C80EAA6F-9A53-4D72-935A-5AFBFF8DFBA2</a:ObjectID>
 <a:Name>EnableDefault</a:Name>
 <a:CreationDate>1446367062</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446368095</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Default values allowed</a:Comment>
 <a:Value>1</a:Value>
 </o:BooleanTargetItem>
@@ -1286,9 +1286,9 @@ Rename = Code</a:Comment>
 <a:Name>Index</a:Name>
 <a:Code>INDX</a:Code>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446361388</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>The following system variables are available:
 (parent table items are also available for indexes)
    &quot;INDEX&quot;        // generated code of the index
@@ -1308,9 +1308,9 @@ For index columns, the following system variables are available:
 <a:ObjectID>08462F56-B95D-4553-BB61-99C7FC8BB3D2</a:ObjectID>
 <a:Name>Enable</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Index allowed</a:Comment>
 <a:Value>1</a:Value>
 </o:BooleanTargetItem>
@@ -1318,9 +1318,9 @@ For index columns, the following system variables are available:
 <a:ObjectID>B09C55AB-F682-481C-914E-95B43632E636</a:ObjectID>
 <a:Name>Maxlen</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Maximum object code length</a:Comment>
 <a:IntegerTargetItem.Value>128</a:IntegerTargetItem.Value>
 </o:IntegerTargetItem>
@@ -1328,9 +1328,9 @@ For index columns, the following system variables are available:
 <a:ObjectID>98B3075A-40E2-4AA5-B56D-91AA5F23596A</a:ObjectID>
 <a:Name>MaxColIndex</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Maximum number of columns in an index</a:Comment>
 <a:IntegerTargetItem.Value>99</a:IntegerTargetItem.Value>
 </o:IntegerTargetItem>
@@ -1338,27 +1338,27 @@ For index columns, the following system variables are available:
 <a:ObjectID>52018761-DA49-450F-B634-A664E9C5E570</a:ObjectID>
 <a:Name>UniqName</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Unique index name in the database</a:Comment>
 </o:BooleanTargetItem>
 <o:TextTargetItem Id="o107">
 <a:ObjectID>E6C34BE4-E39B-4AED-B89E-C7849FAFA89F</a:ObjectID>
 <a:Name>Create</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for creating an index. Example: create index %INDEX%</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o108">
 <a:ObjectID>6124964B-508A-4E07-94AC-C4B29EC03C31</a:ObjectID>
 <a:Name>Drop</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for dropping an index. Example: drop index %INDEX%</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o109">
@@ -1366,9 +1366,9 @@ For index columns, the following system variables are available:
 <a:Name>AddColIndex</a:Name>
 <a:TextTargetItem.Value>%COLUMN% [%ASC%]</a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for defining an index column</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o110">
@@ -1376,63 +1376,63 @@ For index columns, the following system variables are available:
 <a:Name>Options</a:Name>
 <a:TextTargetItem.Value>in %s : category=tablespace</a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Default options for creating an index</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o111">
 <a:ObjectID>B1C0AA51-AEEB-4BF0-81E2-CE7358ED7D08</a:ObjectID>
 <a:Name>DefOptions</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Default values for index options</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o112">
 <a:ObjectID>089DA05F-8039-4798-8BF2-8F15093EAA58</a:ObjectID>
 <a:Name>DefineIndexColumn</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Defines the column of an index</a:Comment>
 </o:TextTargetItem>
 <o:BooleanTargetItem Id="o113">
 <a:ObjectID>BC6FBB64-764A-418C-8FAC-29B4693AFD51</a:ObjectID>
 <a:Name>MandIndexType</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Determines if the index type is mandatory for an index</a:Comment>
 </o:BooleanTargetItem>
 <o:TextTargetItem Id="o114">
 <a:ObjectID>2F690D12-230E-4E3A-ADCF-2064184ADC1A</a:ObjectID>
 <a:Name>IndexType</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>List of types available for an index</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o115">
 <a:ObjectID>3792A8CA-1708-4337-B7DF-6DE6F5649C3E</a:ObjectID>
 <a:Name>DefIndexType</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Default type for an index</a:Comment>
 </o:TextTargetItem>
 <o:BooleanTargetItem Id="o116">
 <a:ObjectID>5437547B-1121-4A90-BE8A-77971B55002F</a:ObjectID>
 <a:Name>EnableAscDesc</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>ASC, DESC keywords allowed</a:Comment>
 <a:Value>1</a:Value>
 </o:BooleanTargetItem>
@@ -1440,108 +1440,108 @@ For index columns, the following system variables are available:
 <a:ObjectID>6F7D045E-871C-403B-A788-BBA4A09EBE40</a:ObjectID>
 <a:Name>Cluster</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Cluster index keyword (default value: cluster)</a:Comment>
 </o:StringTargetItem>
 <o:TextTargetItem Id="o118">
 <a:ObjectID>6EB2A651-28DA-4294-AD34-6603B18DB917</a:ObjectID>
 <a:Name>Footer</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Footer text for an index</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o119">
 <a:ObjectID>95D8291D-E9C5-4DC4-B358-51E23B838B2F</a:ObjectID>
 <a:Name>Header</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Header text for an index</a:Comment>
 </o:TextTargetItem>
 <o:BooleanTargetItem Id="o120">
 <a:ObjectID>C41E96FD-413A-4010-ABB7-EFA0AD6E92B9</a:ObjectID>
 <a:Name>EnableCluster</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Cluster option available for indexes</a:Comment>
 </o:BooleanTargetItem>
 <o:BooleanTargetItem Id="o121">
 <a:ObjectID>4C8EE578-2E0C-436C-BA83-5D792DD99658</a:ObjectID>
 <a:Name>EnableFunction</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Function-based indexes allowed</a:Comment>
 </o:BooleanTargetItem>
 <o:BooleanTargetItem Id="o122">
 <a:ObjectID>E65F8DF0-AD70-422C-8739-27599DC409B8</a:ObjectID>
 <a:Name>EnableOwner</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Owner allowed</a:Comment>
 </o:BooleanTargetItem>
 <o:TextTargetItem Id="o123">
 <a:ObjectID>E0E37C8E-D5E2-4D0B-833F-1B3DE7FEFCAA</a:ObjectID>
 <a:Name>ModifiableAttributes</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>List of extended attributes which provoke a modify when changed</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o124">
 <a:ObjectID>9FCF9BF0-7DF1-4094-8A74-0788205F918C</a:ObjectID>
 <a:Name>ReversedStatements</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Additional statements to be reversed by script</a:Comment>
 </o:TextTargetItem>
 <o:BooleanTargetItem Id="o125">
 <a:ObjectID>54662529-8C19-4B34-B3D4-B41C58C8EB04</a:ObjectID>
 <a:Name>CreateBeforeKey</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Allow to invert generation order of indexes and keys</a:Comment>
 </o:BooleanTargetItem>
 <o:TextTargetItem Id="o126">
 <a:ObjectID>314D8BD1-B499-4063-BEE7-8639063769E8</a:ObjectID>
 <a:Name>ReversedQueries</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Additional attributes queries to be called by ODBC</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o127">
 <a:ObjectID>8788792C-6DA5-4384-9891-57BC71473B01</a:ObjectID>
 <a:Name>Add</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for defining an index</a:Comment>
 </o:TextTargetItem>
 <o:MapTargetItem Id="o128">
 <a:ObjectID>C7139D8D-A7D5-4F6F-8B8C-642039E4AC00</a:ObjectID>
 <a:Name>AlterStatementList</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>List of text items representing statements modifying the corresponding attributes:
 Example:
 Rename = Code</a:Comment>
@@ -1550,9 +1550,9 @@ Rename = Code</a:Comment>
 <a:ObjectID>A4F41A33-1B76-42DA-8C43-C4A121CA7B00</a:ObjectID>
 <a:Name>CreateBeforeInsertData</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>If Yes, applying model changes to database, the table indexes are created before the data is inserted.
 </a:Comment>
 </o:BooleanTargetItem>
@@ -1560,9 +1560,9 @@ Rename = Code</a:Comment>
 <a:ObjectID>E13A2F00-8259-46C0-B458-8196C3BDB3FF</a:ObjectID>
 <a:Name>AlterIgnoreOrder</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Changes in the order of the collection should not provoke a modify.</a:Comment>
 <a:Value>1</a:Value>
 </o:BooleanTargetItem>
@@ -1573,9 +1573,9 @@ Rename = Code</a:Comment>
 <a:Name>PKey</a:Name>
 <a:Code>PKEY</a:Code>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446450355</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>The following system variables are available:
 (parent table items are also available for keys)
    &quot;PKEYCOLUMNS&quot;  // list of primary key columns. Eg: A, B
@@ -1590,9 +1590,9 @@ Rename = Code</a:Comment>
 <a:ObjectID>A65AEE11-1255-40C6-B147-24F7FF0F452F</a:ObjectID>
 <a:Name>Enable</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Primary key allowed</a:Comment>
 <a:Value>1</a:Value>
 </o:BooleanTargetItem>
@@ -1600,9 +1600,9 @@ Rename = Code</a:Comment>
 <a:ObjectID>FD058063-4DE7-466C-A64B-2C020CA033AB</a:ObjectID>
 <a:Name>PkAutoIndex</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Primary key is auto-indexed</a:Comment>
 <a:Value>1</a:Value>
 </o:BooleanTargetItem>
@@ -1610,36 +1610,36 @@ Rename = Code</a:Comment>
 <a:ObjectID>F7E8F83A-A816-4314-9D21-0728919FDCF5</a:ObjectID>
 <a:Name>Create</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for adding a primary key</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o135">
 <a:ObjectID>E52E4DEA-3C33-4EB8-BDF5-C24B74B7652D</a:ObjectID>
 <a:Name>Add</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for defining a primary key</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o136">
 <a:ObjectID>428836E3-E069-4ECA-A742-A1D694846619</a:ObjectID>
 <a:Name>Drop</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for dropping a primary key</a:Comment>
 </o:TextTargetItem>
 <o:BooleanTargetItem Id="o137">
 <a:ObjectID>7E7BBAE2-6892-46C6-ADC7-376B68A9F747</a:ObjectID>
 <a:Name>UseSpPrimKey</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Use the sp_primarykey command to generate primary key</a:Comment>
 </o:BooleanTargetItem>
 </c:Categories>
@@ -1649,9 +1649,9 @@ Rename = Code</a:Comment>
 <a:Name>Key</a:Name>
 <a:Code>KEY</a:Code>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446450355</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>The following system variables are available:
 (parent table items are also available for keys)
    &quot;COLUMNS&quot;      // List of columns of the key. Eg: &quot;A, B, C&quot;
@@ -1667,9 +1667,9 @@ Rename = Code</a:Comment>
 <a:ObjectID>5A45C066-DDA9-43BB-8E84-909DEA58D1D2</a:ObjectID>
 <a:Name>Enable</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>UNIQUE constraint allowed for tables</a:Comment>
 <a:Value>1</a:Value>
 </o:BooleanTargetItem>
@@ -1677,9 +1677,9 @@ Rename = Code</a:Comment>
 <a:ObjectID>70F3424E-92E6-4B47-B6F6-98A9203735E4</a:ObjectID>
 <a:Name>UniqConstAutoIndex</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>UNIQUE constraint is auto-indexed</a:Comment>
 <a:Value>1</a:Value>
 </o:BooleanTargetItem>
@@ -1688,9 +1688,9 @@ Rename = Code</a:Comment>
 <a:Name>ConstName</a:Name>
 <a:TextTargetItem.Value>AK_%.U18:AKEY%_%.U8:TABLE%</a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Constraint name template for alternate keys</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o142">
@@ -1699,9 +1699,9 @@ Rename = Code</a:Comment>
 <a:TextTargetItem.Value>alter table [%QUALIFIER%]%TABLE%
    add unique (%COLNLIST%)</a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for adding an alternate key</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o143">
@@ -1709,9 +1709,9 @@ Rename = Code</a:Comment>
 <a:Name>Add</a:Name>
 <a:TextTargetItem.Value>unique (%COLNLIST%)</a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for defining an alternate key</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o144">
@@ -1720,36 +1720,36 @@ Rename = Code</a:Comment>
 <a:TextTargetItem.Value>alter table [%QUALIFIER%]%TABLE%
    delete unique (%COLNLIST%)</a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for dropping an alternate key</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o145">
 <a:ObjectID>62859514-9F01-405E-A2F7-521D63FDE2EA</a:ObjectID>
 <a:Name>Options</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Available options for an alternate key</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o146">
 <a:ObjectID>EF5D1793-BA29-4F56-9E4B-5D1B2CC90867</a:ObjectID>
 <a:Name>DefOptions</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Default values for alternate key options</a:Comment>
 </o:TextTargetItem>
 <o:BooleanTargetItem Id="o147">
 <a:ObjectID>A63B2BB5-B663-4B1A-BA74-306F61AAED1C</a:ObjectID>
 <a:Name>AllowNullableColn</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Allow the inclusion of nullable columns</a:Comment>
 <a:Value>1</a:Value>
 </o:BooleanTargetItem>
@@ -1757,9 +1757,9 @@ Rename = Code</a:Comment>
 <a:ObjectID>F7FD82C6-7DC7-415B-B3D2-089074F7486E</a:ObjectID>
 <a:Name>MaxConstLen</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Maximum key constraint name length</a:Comment>
 </o:IntegerTargetItem>
 <o:TextTargetItem Id="o149">
@@ -1767,27 +1767,27 @@ Rename = Code</a:Comment>
 <a:Name>AKeyComment</a:Name>
 <a:TextTargetItem.Value>comment on alternate key [%QUALIFIER%]%TABLE%.%AKEY% is %.q:COMMENT%</a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>command for adding an alternate key comment</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o150">
 <a:ObjectID>E12F89C7-7FCF-4B6F-9F32-E7C2B14165D7</a:ObjectID>
 <a:Name>ModifiableAttributes</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>List of extended attributes which provoke a modify when changed</a:Comment>
 </o:TextTargetItem>
 <o:MapTargetItem Id="o151">
 <a:ObjectID>FD5CC037-990F-4927-AEAF-05F419864FDF</a:ObjectID>
 <a:Name>AlterStatementList</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>List of text items representing statements modifying the corresponding attributes:
 Example:
 Rename = Code</a:Comment>
@@ -1796,9 +1796,9 @@ Rename = Code</a:Comment>
 <a:ObjectID>0E900E37-4974-4A14-B8BE-9B845AA5958D</a:ObjectID>
 <a:Name>AlterIgnoreOrder</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Changes in the order of the collection should not provoke a modify.</a:Comment>
 <a:Value>1</a:Value>
 </o:BooleanTargetItem>
@@ -1809,9 +1809,9 @@ Rename = Code</a:Comment>
 <a:Name>Reference</a:Name>
 <a:Code>REFR</a:Code>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446361388</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>The following system variables are available:
    &quot;REFR&quot;         // generated code of the reference
    &quot;REFNAME&quot;      // reference name
@@ -1855,9 +1855,9 @@ the following system variables are available:
 <a:ObjectID>809B736D-229D-4A80-9AEA-BBAA8DB25412</a:ObjectID>
 <a:Name>Enable</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Foreign key allowed</a:Comment>
 <a:Value>1</a:Value>
 </o:BooleanTargetItem>
@@ -1865,9 +1865,9 @@ the following system variables are available:
 <a:ObjectID>62151877-8F46-45A0-9F79-5587F39ECAB5</a:ObjectID>
 <a:Name>EnablefKeyName</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Foreign key role allowed in database generation</a:Comment>
 <a:Value>1</a:Value>
 </o:BooleanTargetItem>
@@ -1875,9 +1875,9 @@ the following system variables are available:
 <a:ObjectID>D254909C-C29E-49FB-8753-4BEAE09A285A</a:ObjectID>
 <a:Name>FKAutoIndex</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Foreign key is auto-indexed</a:Comment>
 <a:Value>1</a:Value>
 </o:BooleanTargetItem>
@@ -1886,9 +1886,9 @@ the following system variables are available:
 <a:Name>ConstName</a:Name>
 <a:TextTargetItem.Value>FK_%.U8:CHILD%_%.U9:REFR%_%.U8:PARENT%</a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Constraint name template for foreign keys</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o158">
@@ -1896,9 +1896,9 @@ the following system variables are available:
 <a:Name>CheckOnCommit</a:Name>
 <a:TextTargetItem.Value>CHECK ON COMMIT</a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Referential integrity test differed after the COMMIT</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o159">
@@ -1909,9 +1909,9 @@ CASCADE
 SET NULL
 SET DEFAULT</a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Declarative referential integrity constraint allowed for update</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o160">
@@ -1922,117 +1922,117 @@ CASCADE
 SET NULL
 SET DEFAULT</a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Declarative referential integrity constraint allowed for delete</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o161">
 <a:ObjectID>98506EB4-B24E-4FC4-86C6-5F5E24CE4204</a:ObjectID>
 <a:Name>Create</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for adding a foreign key</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o162">
 <a:ObjectID>FB883EE3-3094-4C17-A024-09A1F9F4C3DC</a:ObjectID>
 <a:Name>Add</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for defining a foreign key</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o163">
 <a:ObjectID>779D5AA9-6766-4CDF-A59B-2026FAF947DD</a:ObjectID>
 <a:Name>Drop</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for dropping a foreign key</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o164">
 <a:ObjectID>F0A1CCE3-02F1-455F-860B-60A89686BD68</a:ObjectID>
 <a:Name>DefineJoin</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Defines a join for a reference</a:Comment>
 </o:TextTargetItem>
 <o:BooleanTargetItem Id="o165">
 <a:ObjectID>546AB85F-F777-458B-A397-5803038171EA</a:ObjectID>
 <a:Name>UseSpFornKey</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Use sp_foreignkey command to create foreign key</a:Comment>
 </o:BooleanTargetItem>
 <o:BooleanTargetItem Id="o166">
 <a:ObjectID>E3F6E650-9265-46C0-81CD-F7D70015CAFB</a:ObjectID>
 <a:Name>EnableChangeJoinOrder</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Enable to change join order when a reference is linked to a key</a:Comment>
 </o:BooleanTargetItem>
 <o:IntegerTargetItem Id="o167">
 <a:ObjectID>12DB30E9-E22F-4948-867E-CE9546938DB1</a:ObjectID>
 <a:Name>MaxConstLen</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Maximum reference constraint name length</a:Comment>
 </o:IntegerTargetItem>
 <o:TextTargetItem Id="o168">
 <a:ObjectID>30FE8FBA-7614-443B-804B-7B1A3D32A504</a:ObjectID>
 <a:Name>ModifiableAttributes</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>List of extended attributes which provoke a modify when changed</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o169">
 <a:ObjectID>72E5EB33-9522-4E78-8004-98D31F5E012C</a:ObjectID>
 <a:Name>ReversedStatements</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Additional statements to be reversed by script</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o170">
 <a:ObjectID>EC49F122-8E8C-4D9E-97D2-446D0C1E8985</a:ObjectID>
 <a:Name>ReversedQueries</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Additional attributes queries to be called by ODBC</a:Comment>
 </o:TextTargetItem>
 <o:BooleanTargetItem Id="o171">
 <a:ObjectID>FDE464AD-2927-4151-B2F3-266DE55FBD57</a:ObjectID>
 <a:Name>EnableCluster</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Cluster option available for references</a:Comment>
 </o:BooleanTargetItem>
 <o:MapTargetItem Id="o172">
 <a:ObjectID>5666F25E-D985-4F2E-B807-E8F7A6160064</a:ObjectID>
 <a:Name>AlterStatementList</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>List of text items representing statements modifying the corresponding attributes:
 Example:
 Rename = Code</a:Comment>
@@ -2044,9 +2044,9 @@ Rename = Code</a:Comment>
 <a:Name>Domain</a:Name>
 <a:Code>PDMDOMN</a:Code>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446360495</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>The following system variables are available:
    &quot;DOMAIN&quot;       // generated code of the domain (also available for columns)
 SQL Server specific domain system variables:
@@ -2058,9 +2058,9 @@ SQL Server specific domain system variables:
 <a:ObjectID>FB8A8E58-EBF1-403D-9A89-EB44075EF807</a:ObjectID>
 <a:Name>Enable</a:Name>
 <a:CreationDate>1446360456</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446360495</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>User defined data types allowed</a:Comment>
 </o:BooleanTargetItem>
 </c:Categories>
@@ -2069,9 +2069,9 @@ SQL Server specific domain system variables:
 <a:ObjectID>6A6545E1-E760-45FA-BE45-70C86878442B</a:ObjectID>
 <a:Name>MaxConstLen</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Maximum constraint name length</a:Comment>
 <a:IntegerTargetItem.Value>254</a:IntegerTargetItem.Value>
 </o:IntegerTargetItem>
@@ -2079,9 +2079,9 @@ SQL Server specific domain system variables:
 <a:ObjectID>D6994398-F20B-4220-8850-5B3729A7E21D</a:ObjectID>
 <a:Name>EnableOption</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446450403</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Physical options allowed  YES/NO</a:Comment>
 </o:BooleanTargetItem>
 <o:OrderTargetItem Id="o177">
@@ -2096,9 +2096,9 @@ SQL Server specific domain system variables:
 &lt;Metaclass Name=&quot;Reference&quot; /&gt;
 &lt;/Order&gt;</a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446450411</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>This list defines the objects generation order.</a:Comment>
 </o:OrderTargetItem>
 <o:TargetCategory Id="o178">
@@ -2106,9 +2106,9 @@ SQL Server specific domain system variables:
 <a:Name>User</a:Name>
 <a:Code>USER</a:Code>
 <a:CreationDate>1446239820</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446450355</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>The following system variables are available:
    &quot;USER&quot;         // generated code of the user
 </a:Comment>
@@ -2117,9 +2117,9 @@ SQL Server specific domain system variables:
 <a:ObjectID>8CA07694-B1F4-4BB9-93B7-ED02B0418819</a:ObjectID>
 <a:Name>AlterStatementList</a:Name>
 <a:CreationDate>1446239820</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446240123</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>List of text items representing statements modifying the corresponding attributes:
 Example:
 Rename = Code</a:Comment>
@@ -2128,9 +2128,9 @@ Rename = Code</a:Comment>
 <a:ObjectID>CBBE2E25-0546-4E9C-B863-7BC911495313</a:ObjectID>
 <a:Name>Maxlen</a:Name>
 <a:CreationDate>1446239820</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446240123</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Maximum object code length</a:Comment>
 <a:IntegerTargetItem.Value>128</a:IntegerTargetItem.Value>
 </o:IntegerTargetItem>
@@ -2138,9 +2138,9 @@ Rename = Code</a:Comment>
 <a:ObjectID>2ED12FA3-C002-4530-8E05-132A093309EC</a:ObjectID>
 <a:Name>Enable</a:Name>
 <a:CreationDate>1446239820</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446240123</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>User (schema) allowed</a:Comment>
 <a:Value>1</a:Value>
 </o:BooleanTargetItem>
@@ -2148,27 +2148,27 @@ Rename = Code</a:Comment>
 <a:ObjectID>F90AF517-77D0-407A-A722-35692B5EC5B9</a:ObjectID>
 <a:Name>Create</a:Name>
 <a:CreationDate>1446239820</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446240123</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for creating a user</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o183">
 <a:ObjectID>A1352940-0D29-4056-9D21-3CE6925A53D0</a:ObjectID>
 <a:Name>Drop</a:Name>
 <a:CreationDate>1446239820</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446240123</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for dropping a user</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o184">
 <a:ObjectID>E017AE5B-68EB-4756-89C4-2169FC86EDC5</a:ObjectID>
 <a:Name>Options</a:Name>
 <a:CreationDate>1446239820</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446240123</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Available options for creating a user</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o185">
@@ -2178,9 +2178,9 @@ Rename = Code</a:Comment>
 View\Create
 </a:TextTargetItem.Value>
 <a:CreationDate>1276781660</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446241599</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Specify what kind of syntaxes are allowed in a create schema statement.
 A syntax has to respect the pattern &lt;Object category&gt;\&lt;Syntax item&gt;, for example:
 Table\Create
@@ -2195,9 +2195,9 @@ Privilege\Create
 <a:Name>View</a:Name>
 <a:Code>VIEW</a:Code>
 <a:CreationDate>1446241599</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446450403</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>The following system variables are available:
    &quot;VIEW&quot;         // generated code of the view
    &quot;VIEWNAME&quot;     // view name
@@ -2215,27 +2215,27 @@ Privilege\Create
 %SQL%
 [%VIEWCHECK%]</a:TextTargetItem.Value>
 <a:CreationDate>1446241599</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446241684</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for creating a view. Example: create view %VIEW%</a:Comment>
 </o:TextTargetItem>
 <o:BooleanTargetItem Id="o188">
 <a:ObjectID>CAF9EEBE-3E96-48E2-97E9-C1452E25DB60</a:ObjectID>
 <a:Name>Enable</a:Name>
 <a:CreationDate>1446241599</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446241684</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>View allowed</a:Comment>
 </o:BooleanTargetItem>
 <o:MapTargetItem Id="o189">
 <a:ObjectID>D37FC994-9F29-4C00-8BF0-AECA27001609</a:ObjectID>
 <a:Name>TypeList</a:Name>
 <a:CreationDate>1446241599</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446241684</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Defines list of available type
 Name is the displayed value
 Value is the stored value in the object</a:Comment>
@@ -2244,9 +2244,9 @@ Value is the stored value in the object</a:Comment>
 <a:ObjectID>ADE7CCEC-0567-4129-8BDB-687E206F14A8</a:ObjectID>
 <a:Name>AlterStatementList</a:Name>
 <a:CreationDate>1446241599</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446241684</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>List of text items representing statements modifying the corresponding attributes:
 Example:
 Rename = Code</a:Comment>
@@ -2258,9 +2258,9 @@ Rename = Code</a:Comment>
    drop view [%QUALIFIER%]%VIEW%
 end if</a:TextTargetItem.Value>
 <a:CreationDate>1446241599</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446241684</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for dropping a view. Example: drop view %VIEW%</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o192">
@@ -2268,36 +2268,36 @@ end if</a:TextTargetItem.Value>
 <a:Name>ViewCheck</a:Name>
 <a:TextTargetItem.Value>with check option</a:TextTargetItem.Value>
 <a:CreationDate>1446241599</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446241684</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Option for checking a view</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o193">
 <a:ObjectID>02DD909A-6780-409E-9CA8-E04D611C131B</a:ObjectID>
 <a:Name>Header</a:Name>
 <a:CreationDate>1446241599</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446241684</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>View header</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o194">
 <a:ObjectID>471E6348-C7AE-440B-A402-AAFFF1B9C666</a:ObjectID>
 <a:Name>Footer</a:Name>
 <a:CreationDate>1446241599</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446241684</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>View footer</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o195">
 <a:ObjectID>E788DA50-02EF-4332-8D07-55F5BA14EC38</a:ObjectID>
 <a:Name>Options</a:Name>
 <a:CreationDate>1446241599</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446241684</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Available options for creating a snapshot (or materialized view)</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o196">
@@ -2305,45 +2305,45 @@ end if</a:TextTargetItem.Value>
 <a:Name>ViewStyle</a:Name>
 <a:TextTargetItem.Value>materialized view</a:TextTargetItem.Value>
 <a:CreationDate>1446241599</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446241684</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Command for defining a specific view</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o197">
 <a:ObjectID>91062FCD-0125-4971-954D-E0ACC82D6423</a:ObjectID>
 <a:Name>ReversedStatements</a:Name>
 <a:CreationDate>1446241599</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446241684</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Additional statements to be reversed by script</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o198">
 <a:ObjectID>8196BE0E-A79B-406C-904D-C5F46A3768D2</a:ObjectID>
 <a:Name>ReversedQueries</a:Name>
 <a:CreationDate>1446241599</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446241684</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Additional attributes queries to be called by ODBC</a:Comment>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o199">
 <a:ObjectID>1AB09B02-ADE9-4EA1-881D-B034462E5F2B</a:ObjectID>
 <a:Name>EnableIndex</a:Name>
 <a:CreationDate>1446241599</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446241684</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>List of types for which view index is available.</a:Comment>
 </o:TextTargetItem>
 <o:IntegerTargetItem Id="o200">
 <a:ObjectID>DEA8F398-6693-417F-B90C-CC44DEB76BDE</a:ObjectID>
 <a:Name>Maxlen</a:Name>
 <a:CreationDate>1276782484</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446241684</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Maximum object code length</a:Comment>
 <a:IntegerTargetItem.Value>128</a:IntegerTargetItem.Value>
 </o:IntegerTargetItem>
@@ -2355,18 +2355,18 @@ end if</a:TextTargetItem.Value>
 <a:ObjectID>73F676A5-54D0-422E-98BD-540250023F9A</a:ObjectID>
 <a:Name>DataType</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446368247</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Contains data type translation entries. These entries list the correspondence between internal data types and the target database data types</a:Comment>
 <c:Categories>
 <o:MapTargetItem Id="o202">
 <a:ObjectID>57FC28C7-7D5E-48BC-B620-2D5D92FF9721</a:ObjectID>
 <a:Name>AmcdDataType</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446368095</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Data types translation table from internal data types to target database data types.
         %n is the length of the data type
         %s is the size of the data type
@@ -2478,9 +2478,9 @@ SET%s
 <a:ObjectID>8839211C-B78A-43FB-86CB-F2FBC6588DD4</a:ObjectID>
 <a:Name>PhysDataType</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446368192</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Data types translation table from target database data types to internal data types.</a:Comment>
 <a:MapTargetItem.Value>*=TXT
 text=TXT
@@ -2502,9 +2502,9 @@ integer
 blob
 </a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446368247</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 </o:TextTargetItem>
 <o:TextTargetItem Id="o205">
 <a:ObjectID>50DD89C6-ECDB-4437-B564-534F61BA304D</a:ObjectID>
@@ -2513,9 +2513,9 @@ blob
 blob
 </a:TextTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446368247</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 </o:TextTargetItem>
 </c:Categories>
 </o:TargetCategory>
@@ -2525,9 +2525,9 @@ blob
 <a:ObjectID>EFBD1535-A14E-4394-9652-4B54C52E8750</a:ObjectID>
 <a:Name>Profile</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446239060</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:TargetCategory.Type>1</a:TargetCategory.Type>
 <c:Categories>
 <o:TargetCategory Id="o207">
@@ -2535,27 +2535,27 @@ blob
 <a:Name>Shared</a:Name>
 <a:Code>Shared</a:Code>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:TargetCategory.Type>1</a:TargetCategory.Type>
 </o:TargetCategory>
 <o:MetaClassTargetItem Id="o208">
 <a:ObjectID>86812B29-3822-4AF0-B3FB-FBC7361ECB7B</a:ObjectID>
 <a:Name>PackageOptions</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <c:Categories>
 <o:TypedCategoryTargetItem Id="o209">
 <a:TypePublicName>TemplateTargetItem</a:TypePublicName>
 <a:ObjectID>00433F6A-B946-4A3B-8A1F-6BBCC54DF1E4</a:ObjectID>
 <a:Name>Templates</a:Name>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:TargetCategory.Type>1</a:TargetCategory.Type>
 <c:Categories>
 <o:TemplateTargetItem Id="o210">
@@ -3160,9 +3160,9 @@ blob
    Generate name in empty comment
 .endif(\n)</a:TemplateTargetItem.Value>
 <a:CreationDate>1445933413</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1445933413</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:TargetCategory.Type>1</a:TargetCategory.Type>
 </o:TemplateTargetItem>
 </c:Categories>
@@ -3173,9 +3173,9 @@ blob
 <a:ObjectID>2CE37DF2-D367-4B8D-9A92-629FF0D5EB32</a:ObjectID>
 <a:Name>Table</a:Name>
 <a:CreationDate>1446238382</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446360759</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:TargetCategory.Type>1</a:TargetCategory.Type>
 <c:Categories>
 <o:TypedCategoryTargetItem Id="o212">
@@ -3183,18 +3183,18 @@ blob
 <a:ObjectID>EDD87FDA-6C8D-4BE7-9122-917B680D4A38</a:ObjectID>
 <a:Name>Custom Checks</a:Name>
 <a:CreationDate>1446238382</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446359693</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:TargetCategory.Type>1</a:TargetCategory.Type>
 <c:Categories>
 <o:CustomCheckTargetItem Id="o213">
 <a:ObjectID>DF703A7C-A11E-4FEA-8E59-D278E53B3C36</a:ObjectID>
 <a:Name>Check reserved table names</a:Name>
 <a:CreationDate>1446238382</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446239577</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:TargetCategory.Type>1</a:TargetCategory.Type>
 <a:HelpMessage>This check verifies that no table is named sqlite_*.</a:HelpMessage>
 <a:OutputMessage>The following table names are incorrect:</a:OutputMessage>
@@ -3211,9 +3211,9 @@ End Function
 <a:ObjectID>62F0B8EC-290D-4C43-B7CB-D85C4409CC06</a:ObjectID>
 <a:Name>Check schema for temporary tables</a:Name>
 <a:CreationDate>1446359283</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446360206</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>The autofix removes the temporary type from the table associated with a non-temp schema.</a:Comment>
 <a:TargetCategory.Type>1</a:TargetCategory.Type>
 <a:HelpMessage>This check ensures that temporary tables are in temp schema.</a:HelpMessage>
@@ -3241,18 +3241,18 @@ End Function</a:AutoFixScrpt>
 <a:ObjectID>8E6F4AB1-A6E1-497A-AE9E-4A10278B156A</a:ObjectID>
 <a:Name>Extended Attributes</a:Name>
 <a:CreationDate>1446360595</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446360615</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:TargetCategory.Type>1</a:TargetCategory.Type>
 <c:Categories>
 <o:ExtendedAttributeTargetItem Id="o216">
 <a:ObjectID>F24FE8A1-CF14-4555-AF1A-120C5CFAAE5E</a:ObjectID>
 <a:Name>WithoutROWID</a:Name>
 <a:CreationDate>1446360595</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446360615</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:TargetCategory.Type>1</a:TargetCategory.Type>
 </o:ExtendedAttributeTargetItem>
 </c:Categories>
@@ -3262,9 +3262,9 @@ End Function</a:AutoFixScrpt>
 <a:ObjectID>7AD59DF7-E9BC-49A2-B870-38663CB7E096</a:ObjectID>
 <a:Name>Forms</a:Name>
 <a:CreationDate>1446360615</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446360759</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:TargetCategory.Type>1</a:TargetCategory.Type>
 <c:Categories>
 <o:FormTargetItem Id="o218">
@@ -3277,9 +3277,9 @@ End Function</a:AutoFixScrpt>
 &lt;/Form&gt;
 </a:FormTargetItem.Value>
 <a:CreationDate>1446360615</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446360759</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:TargetCategory.Type>1</a:TargetCategory.Type>
 </o:FormTargetItem>
 </c:Categories>

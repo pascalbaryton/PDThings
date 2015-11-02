@@ -52,7 +52,6 @@
 sub run
 {
    my(@args) = @_;
-   print "type: ".ref($args[0])."\n"; ###
    shift(@args); # Local::Modulino as first argument?
 
    for (my $i=0; $i<=$#args; $i++) {
