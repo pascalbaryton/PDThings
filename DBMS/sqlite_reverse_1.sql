@@ -11,7 +11,17 @@ CREATE INDEX one_d on one(d);
 /* ------------------------------------- */
 /* table constraints */
 
-/* TODO */
+create table crt1 (a,b,c,d,
+primary key(a,b)
+);
+
+create table crt2 (a,b,c,d,
+primary key(a,b) on conflict ignore,
+foreign key (a) references crt1(a)
+      on update cascade
+      on delete set null
+      deferrable initially immediate
+);
 
 /* ------------------------------------- */
 /* column constraints */
@@ -29,10 +39,7 @@ CREATE TABLE three
 CREATE TABLE four
 (
    a integer primary key asc autoincrement,
-   b foreign key references three(a)
-      on update cascade
-      on delete set null
-      deferrable initially immediate
+   b
 );
 
 /* ------------------------------------- */
@@ -41,7 +48,7 @@ CREATE TABLE four
 create table index1 (a primary key,b,c,d);
 
 create index index1_one on index1(b);
-create index if not exist index1_two on index1(c,b);
+create index if not exists index1_two on index1(c,b);
 create unique index index1_three on index1(d);
 
 /* ------------------------------------- */
@@ -73,9 +80,11 @@ create table temp.temp3 (a int);
 create table v1 (a,b);
 
 create view v1v1 as select a from v1;
-create view v1v2 if not exists as select a,b from v1;
--- require SQLite 3.9+
-create view v1v2 (a,bc) as select a,count(*) from v1 group by a;
+create view if not exists v1v2 as select a,b from v1;
+-- requires SQLite 3.9+
+create view v1v3 (a,bc) as select a,count(*) from v1 group by a;
+create temp view v1v4 as select a from v1;
+create temporary view v1v5 as select a from v1;
 
 /* ------------------------------------- */
 /* virtual table */
@@ -87,16 +96,27 @@ create virtual table vt1 using foo(a,b);
 
 create table tr1 (a);
 create table tr2 (a);
+create table tr3 (a);
+create view tr4 as select a from tr2;
 
 create trigger tr1t1
 before delete on tr1
 begin insert into tr2(a) select a from new; end;
 
-create trigger tr1t2 if not exists
+/*
+ the docs is not clear, but INSTEAD OF triggers are only for views
+create trigger if not exists tr1t2
 instead of update on tr1
 begin
    insert into tr2(a) select a from new;
-   update tr1 set a=new.a where a=old.a;
+   update tr3 set a=new.a where a=old.a;
+end;
+*/
+
+create trigger tr4t1
+instead of insert on tr4
+begin
+   insert into tr1(a) values (new.a);
 end;
 
 /* ------------------------------------- */
