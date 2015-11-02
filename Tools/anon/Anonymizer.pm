@@ -6,6 +6,7 @@
 #    (not yet) perl Anonymizer.pl < entry.xxm > output.xxm
 #    perl Anonymizer.pl entry.xxm => gives entry_anon.xxm
 #    (not yet) perl Anonymizer.pl x*.xxm foo.xxm => ... wildchar file matching, several arguments
+#    perl Anonymizer.pl [-reset] {attribute=[value]} ...
 #
    # http://perldoc.perl.org/perlmod.html
    package Anonymizer;
@@ -26,7 +27,7 @@
    $ENC_WESTERNEUROPE = 'WEU';
    $ENC_CHINESE = 'CHI';
    $SUFFIX = '_anon';
-   # 0: don't replace, 1: short string, 2: long string
+   # 0: don't replace, 1: short string, 2: long string, 3:xxx: constant value
    %ATTRIBUTES = (
        '', 0
       ,'Name', 1
@@ -51,41 +52,65 @@
 sub run
 {
    my(@args) = @_;
+   print "type: ".ref($args[0])."\n"; ###
    shift(@args); # Local::Modulino as first argument?
-   
-   my $name = $args[0];
-   if ($name eq '') {
-      print STDERR "Usage: perl Anonymizer.pl file_name\n";
-      exit(0);
-   }
-   if (!&CheckXMLModel($name)) {
-      print STDERR "*** '$name' not an XML PowerDesigner model\n";
-      exit(1);
-   }
-   my $in = &LoadXMLModel($name);
-   if ($in eq '') {
-      print STDERR "*** unable to read '$name'\n";
-      exit(1);
-   }
-   my $out = &ChangeXMLModel($in);
-   if (defined($out) && $out ne '1') {
-      my($f,$x) = $name =~ /^(.*)\.([^\.]+)$/;
-      if ($x eq '') {
-         $f = $name;
+
+   for (my $i=0; $i<=$#args; $i++) {
+      my $name = $args[$i];
+      if ($name eq '-reset') {
+         foreach my $k (keys %Anonymizer::ATTRIBUTES) {
+            $Anonymizer::ATTRIBUTES{$k} = 0;
+         }
+         next;
       }
-      else {
-         $x = '.' . $x;
+      if ($name =~ /.=/) {
+         # additional attribute
+         my($att,$val) = $name =~ /^([^=]+)=(.*)$/;
+         if ($att eq '') {
+            print "*** unknown attribute parameter '$name'\n";
+            next;
+         }
+         if ($val eq '') {
+            $Anonymizer::ATTRIBUTES{$att} = 1;
+         }
+         else {
+            $Anonymizer::ATTRIBUTES{$att} = '3:'.$val;
+         }
+         next;
       }
-      my $outn = $f.$SUFFIX.$x;
-      if (-f $outn) {
-         print STDERR "*** output '$outn' already exists\n";
+      if ($name eq '') {
+         print STDERR "Usage: perl Anonymizer.pl file_name\n";
+         exit(0);
+      }
+      if (!&CheckXMLModel($name)) {
+         print STDERR "*** '$name' not an XML PowerDesigner model\n";
          exit(1);
       }
-      if (&SaveXMLModel($outn, $out)) {
-         print STDERR "*** unable to write '$outn'\n";
+      my $in = &LoadXMLModel($name);
+      if ($in eq '') {
+         print STDERR "*** unable to read '$name'\n";
          exit(1);
       }
-      print STDERR "... output '$outn'\n";
+      my $out = &ChangeXMLModel($in);
+      if (defined($out) && $out ne '1') {
+         my($f,$x) = $name =~ /^(.*)\.([^\.]+)$/;
+         if ($x eq '') {
+            $f = $name;
+         }
+         else {
+            $x = '.' . $x;
+         }
+         my $outn = $f.$SUFFIX.$x;
+         if (-f $outn) {
+            print STDERR "*** output '$outn' already exists\n";
+            exit(1);
+         }
+         if (&SaveXMLModel($outn, $out)) {
+            print STDERR "*** unable to write '$outn'\n";
+            exit(1);
+         }
+         print STDERR "... output '$outn'\n";
+      }
    }
 
    exit(0);
@@ -193,6 +218,18 @@ sub ChangeXMLModel
                      $replace = &ReplaceString($value);
                      $REPLACED{$value} = $replace;
                   }
+                  $repl .= $replace.$ending;
+               }
+            }
+            elsif (substr($Anonymizer::ATTRIBUTES{$attname},0,2) eq '3:') {
+               my $replace = substr($Anonymizer::ATTRIBUTES{$attname},2);
+               my($value,$ending) = substr($stream, length($start)) =~ /^([^>]*)(<\/a:${attname}>)/;
+               if ($ending eq '') {
+                  print STDERR "*** unable to find attribute $attname ending\n";
+                  return 1;
+               }
+               else {
+                  $start .= $value.$ending;
                   $repl .= $replace.$ending;
                }
             }
