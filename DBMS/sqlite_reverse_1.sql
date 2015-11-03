@@ -104,7 +104,8 @@ before delete on tr1
 begin insert into tr2(a) select a from new; end;
 
 /*
- the docs is not clear, but INSTEAD OF triggers are only for views
+ the docs are not clear on this question,
+    but (looking at source code) INSTEAD OF triggers are only for views
 create trigger if not exists tr1t2
 instead of update on tr1
 begin
