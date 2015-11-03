@@ -7,6 +7,9 @@ call :clean sqlite_test_1 pdm
 call :clean sqlite_alter_after pdm
 call :clean sqlite_alter_start apm
 
+if exist sqlite_test_1.pdb del sqlite_test_1.pdb
+if exist sqlite_alter_after.pdb del sqlite_alter_after.pdb
+
 goto :EOF
 
 :clean
