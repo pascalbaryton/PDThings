@@ -11,9 +11,9 @@
 <a:Name>sqlite alter after</a:Name>
 <a:Code>SQLITE_ALTER_AFTER</a:Code>
 <a:CreationDate>1446558782</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446559279</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Comment>Model used to test alter database capacities with SQLite DBMS.</a:Comment>
 <a:PackageOptionsText>[FolderOptions]
 
@@ -1125,9 +1125,9 @@ PhysOpts=</a:ModelOptionsText>
 <a:Name>SQLite 3</a:Name>
 <a:Code>SQLite</a:Code>
 <a:CreationDate>1446558781</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446558781</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:TargetStereotype/>
 <a:TargetID>291AB3DC-306F-4D61-BD87-CC871CD61EB2</a:TargetID>
 <a:TargetClassID>4BA9F647-DAB1-11D1-9944-006097355D9B</a:TargetClassID>
@@ -1139,9 +1139,9 @@ PhysOpts=</a:ModelOptionsText>
 <a:Name>PhysicalDiagram_1</a:Name>
 <a:Code>PHYSICALDIAGRAM_1</a:Code>
 <a:CreationDate>1446558782</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446558806</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:DisplayPreferences>[DisplayPreferences]
 
 [DisplayPreferences\PDM]
@@ -1666,9 +1666,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Name>Table_1</a:Name>
 <a:Code>TABLE_1</a:Code>
 <a:CreationDate>1446558793</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446559202</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:TotalSavingCurrency/>
 <c:Columns>
 <o:Column Id="o13">
@@ -1676,9 +1676,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Name>undef</a:Name>
 <a:Code>UNDEF</a:Code>
 <a:CreationDate>1446558875</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446558945</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:DataType>*</a:DataType>
 </o:Column>
 <o:Column Id="o14">
@@ -1686,9 +1686,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Name>t</a:Name>
 <a:Code>T</a:Code>
 <a:CreationDate>1446558875</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446558945</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:DataType>text</a:DataType>
 </o:Column>
 <o:Column Id="o15">
@@ -1696,9 +1696,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Name>b</a:Name>
 <a:Code>B</a:Code>
 <a:CreationDate>1446558875</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446558920</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:DataType>blob</a:DataType>
 </o:Column>
 <o:Column Id="o16">
@@ -1706,9 +1706,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Name>n</a:Name>
 <a:Code>N</a:Code>
 <a:CreationDate>1446558875</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446558920</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:DataType>numeric</a:DataType>
 </o:Column>
 <o:Column Id="o17">
@@ -1716,9 +1716,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Name>i</a:Name>
 <a:Code>I</a:Code>
 <a:CreationDate>1446558875</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446558920</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:DataType>integer</a:DataType>
 </o:Column>
 <o:Column Id="o18">
@@ -1726,9 +1726,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Name>r</a:Name>
 <a:Code>R</a:Code>
 <a:CreationDate>1446558875</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446558920</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:DataType>real</a:DataType>
 </o:Column>
 <o:Column Id="o19">
@@ -1736,9 +1736,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Name>added</a:Name>
 <a:Code>ADDED</a:Code>
 <a:CreationDate>1446559194</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446559202</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:DataType>*</a:DataType>
 </o:Column>
 </c:Columns>
@@ -1748,9 +1748,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Name>Key_1</a:Name>
 <a:Code>KEY_1</a:Code>
 <a:CreationDate>1446558875</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446558920</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <c:Key.Columns>
 <o:Column Ref="o13"/>
 </c:Key.Columns>
@@ -1765,9 +1765,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Name>Table_2</a:Name>
 <a:Code>TABLE_2</a:Code>
 <a:CreationDate>1446558798</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446559188</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:TotalSavingCurrency/>
 <c:Columns>
 <o:Column Id="o21">
@@ -1775,9 +1775,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Name>a</a:Name>
 <a:Code>A</a:Code>
 <a:CreationDate>1446558875</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446558980</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:DataType>*</a:DataType>
 </o:Column>
 <o:Column Id="o22">
@@ -1785,9 +1785,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Name>pk</a:Name>
 <a:Code>PK</a:Code>
 <a:CreationDate>1446558952</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446558980</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:DataType>*</a:DataType>
 </o:Column>
 <o:Column Id="o23">
@@ -1795,9 +1795,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Name>b</a:Name>
 <a:Code>B</a:Code>
 <a:CreationDate>1446558952</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446559004</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:DataType>*</a:DataType>
 </o:Column>
 <o:Column Id="o24">
@@ -1805,9 +1805,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Name>c</a:Name>
 <a:Code>C</a:Code>
 <a:CreationDate>1446558952</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446559159</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:DataType>*</a:DataType>
 </o:Column>
 <o:Column Id="o25">
@@ -1815,9 +1815,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Name>e</a:Name>
 <a:Code>E</a:Code>
 <a:CreationDate>1446558952</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446559149</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:DataType>*</a:DataType>
 </o:Column>
 </c:Columns>
@@ -1827,9 +1827,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Name>Key_1</a:Name>
 <a:Code>KEY_1</a:Code>
 <a:CreationDate>1446558952</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446558980</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <c:Key.Columns>
 <o:Column Ref="o22"/>
 </c:Key.Columns>
@@ -1841,16 +1841,16 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Name>index_b_c</a:Name>
 <a:Code>INDEX_B_C</a:Code>
 <a:CreationDate>1446558985</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446559159</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <c:IndexColumns>
 <o:IndexColumn Id="o28">
 <a:ObjectID>80EDD04C-658E-46D4-B197-27C59CE6B769</a:ObjectID>
 <a:CreationDate>1446558991</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446559004</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <c:Column>
 <o:Column Ref="o23"/>
 </c:Column>
@@ -1862,16 +1862,16 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Name>index_e</a:Name>
 <a:Code>INDEX_E</a:Code>
 <a:CreationDate>1446559131</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446559149</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <c:IndexColumns>
 <o:IndexColumn Id="o30">
 <a:ObjectID>F3E74840-50DD-4EFD-AEF9-8A47F7EFA233</a:ObjectID>
 <a:CreationDate>1446559143</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446559149</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <c:Column>
 <o:Column Ref="o25"/>
 </c:Column>
@@ -1890,9 +1890,9 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Name>View_1</a:Name>
 <a:Code>VIEW_1</a:Code>
 <a:CreationDate>1446558806</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446558945</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:View.SQLQuery>select undef,t
 from table_1</a:View.SQLQuery>
 <a:TaggedSQLQuery>select [{F2DAE890-3916-4964-B21D-BF42D2D5F436}=undef],[{A4CF248B-49EF-43BE-A8CC-71FC761626FB}=t]
@@ -1903,9 +1903,9 @@ from [{9443EBE1-7458-471F-A24E-4A9AB0037B77}=table_1]</a:TaggedSQLQuery>
 <a:Name>undef</a:Name>
 <a:Code>UNDEF</a:Code>
 <a:CreationDate>1446558928</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446558945</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:DataType>*</a:DataType>
 <c:ViewColumn.Columns>
 <o:Column Ref="o13"/>
@@ -1916,9 +1916,9 @@ from [{9443EBE1-7458-471F-A24E-4A9AB0037B77}=table_1]</a:TaggedSQLQuery>
 <a:Name>t</a:Name>
 <a:Code>T</a:Code>
 <a:CreationDate>1446558928</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446558945</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:DataType>text</a:DataType>
 <c:ViewColumn.Columns>
 <o:Column Ref="o14"/>
@@ -1936,9 +1936,9 @@ from [{9443EBE1-7458-471F-A24E-4A9AB0037B77}=table_1]</a:TaggedSQLQuery>
 <a:Name>Reference_1</a:Name>
 <a:Code>REFERENCE_1</a:Code>
 <a:CreationDate>1446558802</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446558920</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:Cardinality>0..*</a:Cardinality>
 <a:UpdateConstraint>1</a:UpdateConstraint>
 <a:DeleteConstraint>1</a:DeleteConstraint>
@@ -1955,9 +1955,9 @@ from [{9443EBE1-7458-471F-A24E-4A9AB0037B77}=table_1]</a:TaggedSQLQuery>
 <o:ReferenceJoin Id="o33">
 <a:ObjectID>0C5C4D34-FB2A-4906-8A32-2F763A15E141</a:ObjectID>
 <a:CreationDate>1446558875</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446558920</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <c:Object1>
 <o:Column Ref="o13"/>
 </c:Object1>
@@ -1974,9 +1974,9 @@ from [{9443EBE1-7458-471F-A24E-4A9AB0037B77}=table_1]</a:TaggedSQLQuery>
 <a:Name>PUBLIC</a:Name>
 <a:Code>PUBLIC</a:Code>
 <a:CreationDate>1446558780</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446558780</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 </o:Group>
 </c:DefaultGroups>
 <c:TargetModels>
@@ -1985,9 +1985,9 @@ from [{9443EBE1-7458-471F-A24E-4A9AB0037B77}=table_1]</a:TaggedSQLQuery>
 <a:Name>SQLite 3</a:Name>
 <a:Code>SQLite</a:Code>
 <a:CreationDate>1446558781</a:CreationDate>
-<a:Creator>I063947</a:Creator>
+<a:Creator>DuffyDuck</a:Creator>
 <a:ModificationDate>1446558781</a:ModificationDate>
-<a:Modifier>I063947</a:Modifier>
+<a:Modifier>DuffyDuck</a:Modifier>
 <a:TargetModelURL>file:///%_DBMS%/SQLite3.xdb</a:TargetModelURL>
 <a:TargetModelID>291AB3DC-306F-4D61-BD87-CC871CD61EB2</a:TargetModelID>
 <a:TargetModelClassID>4BA9F647-DAB1-11D1-9944-006097355D9B</a:TargetModelClassID>

@@ -4,6 +4,8 @@ rem clean PD files before commit
 
 call :clean SQLite3 xdb
 call :clean sqlite_test_1 pdm
+call :clean sqlite_alter_after pdm
+call :clean sqlite_alter_start apm
 
 goto :EOF
 
