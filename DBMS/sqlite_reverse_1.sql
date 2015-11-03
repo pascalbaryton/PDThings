@@ -1,7 +1,7 @@
 /*
  * This is a script to test reverse engineering of SQLite 3 scripts.
  * In some places, matching the output of ".fullschema";
- * in some others, trying to match possible syntax.
+ * in some others, trying to match all possible syntax.
  */
 
 CREATE TABLE one (c int,d);
@@ -11,7 +11,7 @@ CREATE INDEX one_d on one(d);
 /* ------------------------------------- */
 /* table constraints */
 
-create table crt1 (a,b,c,d,
+create table if not exists crt1 (a,b,c,d,
 primary key(a,b)
 );
 
