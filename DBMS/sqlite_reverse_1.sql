@@ -42,6 +42,12 @@ CREATE TABLE four
    b
 );
 
+create table if not exists five (
+   a integer primary key,
+   b,
+   c integer references four(a)
+);
+
 /* ------------------------------------- */
 /* indexes */
 
