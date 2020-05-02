@@ -4,5 +4,8 @@ Tools / anon
 	a Perl script to anonymize PowerDesigner models (stored as XML files),
 	e.g. before sending them to technical support
 
+Tools / NClass
+	a VBScript for PowerDesigner to import NClass .erd files
+
 DBMS /
 	SQLite 3 DBMS
